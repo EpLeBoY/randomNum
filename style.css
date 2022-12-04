@@ -108,7 +108,7 @@ h5 {
    .btn:active {
     color: #000;
     font-weight: bold;
-   }
+    }
 
    button {
     --border-radius: 15px;
