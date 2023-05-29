@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+*{
+    background-color: #05af93;
+}
+#avviso {
+    background-color: #05af93;
+    border-radius: 32px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 16px;
+    transition-duration: 0.3s;
+    font-family: 'Raleway';
+}
+#avviso:hover {
+    font-size: 17px;
+    font: italic;
+}
+
+
+a {
+
+    text-decoration: none;
+    border-bottom: 3px solid red;
+    color: yellow;
+    transition-duration: 0.6s;
+    }
+
+    textarea {
+        width: 500px;
+        height: 200px;
+        font-size: 18px;
+        font-family: Arial, sans-serif;
+        padding: 10px;
+        border-radius: 10px;
+        border: 2px solid lightblue;
+        box-shadow: 5px 5px 10px lightgray;
+      }
+
+      button {
+        width: 100px;
+        height: 40px;
+        font-size: 16px;
+        font-family: Arial, sans-serif;
+        padding: 10px 20px;
+        border-radius: 20px;
+        border: 2px solid lightblue;
+        box-shadow: 5px 5px 10px lightgray;
+        background-color: white;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      button:hover {
+        background-color: lightblue;
+        color: white;
+      }
+      
